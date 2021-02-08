@@ -1,5 +1,12 @@
-## Mon Feb  8 17:38:35 UTC 2021
+## Mon Feb  8 18:48:38 UTC 2021
+
 CamelForth in C, by Dr. Brad Rodriguez
+
+BUILD ENVIRONMENT - bare bones text interpreter
+
+no Forth functionality at all - not even base code.
+
+Just keyboard echo loop.
 
 Port: rp2040, Raspberry Pi Pico target board, February, 2021.
 
