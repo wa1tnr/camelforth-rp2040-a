@@ -65,14 +65,16 @@ extern unsigned int getKey(void);       // hardware-independent wrapper
 int length_print_string = 0;    // would like to shed this global
 
 /* USB based */
+#ifdef NOT_DEFINED_RP2040
 #define printf(format,integer) \
     length_print_string = 0; \
     print_string[0] = (uint32_t) "\0"; \
     sprintf(print_string, format, integer); \
     length_print_string = strlen(print_string); \
         chopped_acm_write(print_string)
+#endif // not defined rp2040
 
-#define getch getKey
+#define getch getKey // keep rp2040
 
 /*
 void putch_nomore(char c) {
