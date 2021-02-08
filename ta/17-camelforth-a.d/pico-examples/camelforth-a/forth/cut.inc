@@ -33,6 +33,7 @@ void slower(void) {
     }
 }
 
+// printf_cutter() needs rework or discard - is why it says 'cccc' for a dump or a .S 08 Feb 2021
 void printf_cutter(void) {
     // cdcdf_acm_write((uint8_t *) tempstring, strlen(tempstring));
     putchar('c'); // cdcdf_acm_write((uint8_t *) tempstring, strlen(tempstring));
