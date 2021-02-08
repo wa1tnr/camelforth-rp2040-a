@@ -1,11 +1,12 @@
+// Mon Feb  8 18:39:16 UTC 2021
+// wa1tnr
+// camelforth
+
 /**
  * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
  *
  * SPDX-License-Identifier: BSD-3-Clause
  */
-
-// wa1tnr
-// Mon Feb  8 17:54:04 UTC 2021
 
 #include <stdio.h>
 #include "pico/stdlib.h"
@@ -71,8 +72,8 @@ int main() {
     uart_putc(UART_ID, 'B');
     sleep_ms(19500);
     uart_puts(UART_ID, " Hello, UART!\r\n");
-    uart_puts(UART_ID, " project codenamed picoForth v0.0.0-b\r\n\r\n\r\n");
-    uart_puts(UART_ID, " nice keyboard mirroring UART and USB\r\n");
+    uart_puts(UART_ID, " project codenamed camelForth-rp2 v0.0.0-b\r\n\r\n\r\n");
+    uart_puts(UART_ID, " 8 Feb BUILD env test nice keyboard mirroring UART and USB\r\n");
 
     while(1) {
         looper(); // called once and ran once ask asked ;)
