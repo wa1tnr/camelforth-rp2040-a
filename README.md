@@ -1,14 +1,8 @@
-## Tue Feb  9 03:35:55 UTC 2021
-
-Large merge in progress - should be okay?
+## Tue Feb  9 04:09:26 UTC 2021
 
 CamelForth in C, by Dr. Brad Rodriguez
 
-BUILD ENVIRONMENT - bare bones text interpreter
-
-no Forth functionality at all - not even base code.
-
-Just keyboard echo loop.
+Reasonably well debugged - functional Forth interpreter 04:10 UTC Tue 09 Feb 2021
 
 Port: rp2040, Raspberry Pi Pico target board, February, 2021.
 
@@ -55,5 +49,14 @@ Found on this github in another repository, at
 # forth assembly-language-programming
 # basics
 # c cpp
+
+
+## old branches:
+
+BUILD ENVIRONMENT - bare bones text interpreter
+
+no Forth functionality at all - not even base code.
+
+Just keyboard echo loop.
 
 END.
