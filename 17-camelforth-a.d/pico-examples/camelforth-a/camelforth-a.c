@@ -18,6 +18,7 @@
 
 #define UART_TX_PIN 0
 #define UART_RX_PIN 1
+extern void interpreter(void);
 
 char ch;
 void _USB_read_tnr(void) {
@@ -76,6 +77,7 @@ int main() {
     uart_puts(UART_ID, " 8 Feb BUILD env test nice keyboard mirroring UART and USB\r\n");
 
     while(1) {
+        interpreter(); // camel forth
         looper(); // called once and ran once ask asked ;)
     }
 }
