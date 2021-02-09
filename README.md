@@ -10,31 +10,25 @@ Port: rp2040, Raspberry Pi Pico target board, February, 2021.
 
 # About
 
-First attempt to make a meaningful interpeter on the
-RP2040 and Raspberry Pi Pico, locally.
+CamelForth
 
-A primitive USB interpreter already exists.
+A Forth in C by Dr Brad Rodriguez
 
-# Interesting Files
+Forth interpreter for the
+RP2040 and Raspberry Pi Pico.
 
-This is a very rough interpreter that broadcasts
-also on the UART, and only accepts keystrokes on
-the USB.
+Requires pico-sdk and is modeled on pico-examples.
 
 The /dev/ttyACM0 is the primary interface (USB).
+
+(Reference host PC is Linux Debian amd64)
 
 Using CP2104 USB-to-USART bridge, the secondary
 interface (in Linux host PC) is /dev/ttyUSB0, but
 that is arbitrary (you can bridge using other
 methods and chips).
 
-This is the interpreter file and its location:
-
-rpi-pico-basics/07-interpreter.d/pico-examples/interpreter-a/interpreter-a.c
-
-Found on this github in another repository, at
-
- https://github.com/wa1tnr/rpi-pico-basics.git
+Connected to UART0 on the pico.
 
 # Topics
 
@@ -44,11 +38,8 @@ Found on this github in another repository, at
 
 # rpi-pico-pio
 
-# programmable-i-o
-
-# forth assembly-language-programming
-# basics
-# c cpp
+# forth
+# c
 
 
 ## old branches:
