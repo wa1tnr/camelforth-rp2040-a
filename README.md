@@ -2,6 +2,18 @@
 
 CamelForth in C, by Dr. Brad Rodriguez
 
+# SUPERSEDED by:
+
+https://github.com/wa1tnr/camelforth-rp2040-b-MS-U
+
+October, 2021:
+
+The present project is archived for reference only. Please see the above archive for current work.
+
+# OLD:
+
+# - - - everything below this line is old news - October 2021, forward. - - -
+
 Reasonably well debugged - functional Forth interpreter 04:10 UTC Tue 09 Feb 2021
 
 Port: rp2040, Raspberry Pi Pico target board, February, 2021.
